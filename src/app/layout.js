@@ -4,10 +4,10 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const APP_NAME = "PWA App";
-const APP_DEFAULT_TITLE = "My Awesome PWA App";
-const APP_TITLE_TEMPLATE = "%s - PWA App";
-const APP_DESCRIPTION = "Best PWA app in the world!";
+const APP_NAME = "MaMa";
+const APP_DEFAULT_TITLE = "Mari Makan";
+const APP_TITLE_TEMPLATE = "%s - Mari Makan";
+const APP_DESCRIPTION = "Mari Makan adalah teman setia Anda dalam menjelajahi kelezatan kuliner Papua.Temukan beragam hidangan khas dan cemilan lezat dari penjual lokal, pesan dengan mudah, dan nikmati pengantaran langsung ke tempat Anda.Jadikan setiap makanan petualangan baru dengan Mari Makan.";
 
 export const metadata = {
   applicationName: APP_NAME,
@@ -17,7 +17,7 @@ export const metadata = {
     template: APP_TITLE_TEMPLATE,
   },
   description: APP_DESCRIPTION,
-  themeColor: "#FFFFFF",
+  themeColor: "#212121",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
