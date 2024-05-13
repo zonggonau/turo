@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/nav";
 import Infoprofile from "./components/nav/Infoprofile";
+import { ThemeModeScript } from "flowbite-react";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -50,9 +51,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <ThemeModeScript />
+      </head>
       <body className={inter.className}>
         <Infoprofile />
-        {children}
+        <div className="p-3">
+          {children}
+        </div>
         <Navbar />
       </body>
     </html>
