@@ -1,13 +1,8 @@
 import withPWAInit from 'nextjs-pwa';
 /** @type {import('next').NextConfig} */
-const withPWA = withPWAInit({
-    dest: 'public',
-})
-const nextConfig = {};
+const nextConfig = {
+};
 
-// export default nextConfig;
-
-
-export default withPWA({
+export default withPWAInit({
     nextConfig
 })

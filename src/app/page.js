@@ -1,6 +1,6 @@
 import { Button, DarkThemeToggle, Flowbite } from "flowbite-react";
 import { Component } from "./components/Carousel";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
               </svg>
             </button>
 
-            <Image
+            <img
               src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
               alt=""
               className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
